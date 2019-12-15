@@ -11,11 +11,5 @@
     "querystring": "~0.2.0",
     "request": "~2.83.0"
   },
-  "homepage": "https://tissakhosla.github.io/spotify-api-auth/",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  }
+  "homepage": "https://tissakhosla.github.io/spotify-api-auth/"
 }
