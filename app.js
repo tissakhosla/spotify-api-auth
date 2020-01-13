@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '644b7d2c462943a79fad055d8618fcdb'; // Your client id
 var client_secret = 'b78a0d33612743728ded48a7fc245e6a'; // Your secret
-var redirect_uri = 'http://arch.finityllc.com:8888/callback'; // Your redirect uri
+var redirect_uri = 'http://3.134.116.136:8888/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
