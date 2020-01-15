@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '644b7d2c462943a79fad055d8618fcdb'; // Your client id
 var client_secret = 'b78a0d33612743728ded48a7fc245e6a'; // Your secret
-var redirect_uri = 'http://3.134.116.136:8888/callback'; // Your redirect uri
+var redirect_uri = 'http://www.tissakhosla.org:8888/callback'; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
@@ -105,7 +105,7 @@ app.get('/callback', function(req, res) {
         });
 
         // we can also pass the token to the browser to make requests from there
-        res.redirect('http://3.134.116.136:3000/#' +
+        res.redirect('http://www.tissakhosla.org:3000/#' +
           querystring.stringify({
             access_token: access_token,
             refresh_token: refresh_token
